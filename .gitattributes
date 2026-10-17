@@ -1,0 +1,4 @@
+# cmd.exe can misparse labels in a batch file with LF line endings, so check out every batch file with CR LF,
+# whatever the local core.autocrlf setting (architecture 10.1).
+
+*.bat text eol=crlf
